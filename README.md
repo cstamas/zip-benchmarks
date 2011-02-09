@@ -6,7 +6,7 @@ Results
 
 Example "session":
 
-
+<pre>
 cstamas@marvin target$ l nexus-oss-webapp-1.10-SNAPSHOT-bundle.zip 
 -rw-r--r--  1 cstamas  staff  28783146 Feb  9 14:11 nexus-oss-webapp-1.10-SNAPSHOT-bundle.zip
 cstamas@marvin target$ java -jar ziptest-1.0.0-SNAPSHOT-cli.jar all nexus-oss-webapp-1.10-SNAPSHOT-bundle.zip 
@@ -68,3 +68,7 @@ Done in 72 millis.
 Final Memory: 1476kB/83008kB
 Final Memory: 774kB/83008kB (after GC)
 cstamas@marvin target$ 
+</pre>
+
+Have fun,  
+~t~

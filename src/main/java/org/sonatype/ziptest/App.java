@@ -64,7 +64,7 @@ public class App
         }
         else if ( "tzt".equalsIgnoreCase( sw ) )
         {
-            testTrueZipZipFile( file );
+            testTrueZipTFile( file );
         }
         else
         {

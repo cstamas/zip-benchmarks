@@ -14,30 +14,30 @@ cstamas@marvin target$ java -jar ziptest-1.0.0-SNAPSHOT-cli.jar all nexus-oss-we
 ZipFile
 =======
 Total of 829 entries.
-Done in 8 millis.
+Done in 7 millis.
 Final Memory: 1724kB/83008kB
 Final Memory: 773kB/83008kB (after GC)
 ==============
 ZipInputStream
 ==============
 Total of 829 entries.
-Done in 587 millis.
+Done in 592 millis.
 Final Memory: 1454kB/83008kB
 Final Memory: 762kB/83008kB (after GC)
 ===============
 TrueZip ZipFile
 ===============
 Total of 829 entries.
-Done in 114 millis.
+Done in 80 millis.
 Final Memory: 2125kB/83008kB
 Final Memory: 779kB/83008kB (after GC)
-===============
-TrueZip ZipFile
-===============
-Total of 829 entries.
-Done in 49 millis.
-Final Memory: 1476kB/83008kB
-Final Memory: 774kB/83008kB (after GC)
+=============
+TrueZip TFile
+=============
+Total of 2 entries.
+Done in 283 millis.
+Final Memory: 6946kB/83008kB
+Final Memory: 867kB/83008kB (after GC)
 cstamas@marvin target$ java -jar ziptest-1.0.0-SNAPSHOT-cli.jar all nexus-oss-webapp-1.10-SNAPSHOT-bundle.zip 
 =======
 ZipFile
@@ -50,23 +50,52 @@ Final Memory: 773kB/83008kB (after GC)
 ZipInputStream
 ==============
 Total of 829 entries.
-Done in 652 millis.
+Done in 590 millis.
 Final Memory: 1454kB/83008kB
 Final Memory: 762kB/83008kB (after GC)
 ===============
 TrueZip ZipFile
 ===============
 Total of 829 entries.
-Done in 117 millis.
+Done in 97 millis.
 Final Memory: 2125kB/83008kB
 Final Memory: 779kB/83008kB (after GC)
+=============
+TrueZip TFile
+=============
+Total of 2 entries.
+Done in 253 millis.
+Final Memory: 6946kB/83008kB
+Final Memory: 867kB/83008kB (after GC)
+cstamas@marvin target$ java -jar ziptest-1.0.0-SNAPSHOT-cli.jar all nexus-oss-webapp-1.10-SNAPSHOT-bundle.zip 
+=======
+ZipFile
+=======
+Total of 829 entries.
+Done in 6 millis.
+Final Memory: 1724kB/83008kB
+Final Memory: 773kB/83008kB (after GC)
+==============
+ZipInputStream
+==============
+Total of 829 entries.
+Done in 592 millis.
+Final Memory: 1454kB/83008kB
+Final Memory: 762kB/83008kB (after GC)
 ===============
 TrueZip ZipFile
 ===============
 Total of 829 entries.
-Done in 72 millis.
-Final Memory: 1476kB/83008kB
-Final Memory: 774kB/83008kB (after GC)
+Done in 84 millis.
+Final Memory: 2125kB/83008kB
+Final Memory: 779kB/83008kB (after GC)
+=============
+TrueZip TFile
+=============
+Total of 2 entries.
+Done in 266 millis.
+Final Memory: 6946kB/83008kB
+Final Memory: 867kB/83008kB (after GC)
 cstamas@marvin target$ 
 </pre>
 
